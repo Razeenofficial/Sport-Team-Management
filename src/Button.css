@@ -1,0 +1,190 @@
+
+  
+  .home_button{ display: inline-block;
+  outline: 0;
+  text-align: center;
+  cursor: pointer;
+  padding: 17px 30px;
+  border: 0;
+  color: #fff;
+  font-size: 17.5px;
+  border: 3px solid transparent;
+  border-color: rgb(11, 11, 11);
+  color: #000;
+  background: transparent;
+  font-weight: 800;
+  line-height: 30px;
+  transition: background,color .1s ease-in-out;
+width: 200px;
+}
+  
+
+   .home_button:hover {
+      background-color: #000;
+      color: #fff;
+      border: 3px solid white;
+
+  }
+  
+
+/* HOME */
+
+.hbutton {
+  cursor: pointer;
+  position: relative;
+  padding: 10px 24px;
+  font-size: 18px;
+  /* width: 40px; */
+  color: #040D12;
+  border: 2px solid rgb(193, 163, 98);
+  border-radius: 34px;
+  background-color: white;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+  overflow: hidden;
+}
+
+.hbutton::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border-radius: inherit;
+  scale: 0;
+  z-index: -1;
+  background-color: rgb(193, 163, 98);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.hbutton:hover::before {
+  scale: 3;
+}
+
+.hbutton:hover {
+  color: #212121;
+  scale: 1.1;
+  box-shadow: 0 0px 20px rgba(193, 163, 98,0.4);
+}
+
+.hbutton:active {
+  scale: 1;
+}
+
+
+
+
+
+
+  
+
+
+
+  /* card */
+
+
+  .card {
+    /* width: 12.5rem;
+    height: 17rem; */
+    background-color: #C69749;
+    border-radius: 1rem;
+    border: #212121 0.2rem solid;
+    transition: all 0.4s ease-in;
+    box-shadow: 0.4rem 0.4rem 0.6rem #00000040;
+   }
+   
+   .card:hover {
+    transform: translateY(-1.5rem);
+    border: #0F2C59 0.2em solid;
+    border-radius: 2.5rem 0 2.5rem 0;
+   }
+
+
+
+
+
+
+/* footer */
+
+.footer {
+  background-color: #040D12;
+  color: hsl(0, 10%, 96%);
+  padding: 5px 0;
+  text-align: center;
+}
+
+.f1{
+  width: 100%;
+}
+
+
+.main{
+  background-color: #FAF0E6;
+}
+
+
+
+/* go back button */
+
+.goback{
+  padding: 12.5px 30px;
+  border: 0;
+  border-radius: 100px;
+  background-color: #C69749;
+  color: #ffffff;
+  font-weight: Bold;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  float:right;
+}
+
+.goback:hover {
+  background-color: #6fc5ff;
+  box-shadow: 0 0 20px #6fc5ff50;
+  transform: scale(1.1);
+}
+
+.goback:active {
+  background-color: #3d94cf;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: none;
+  transform: scale(0.98);
+}
+
+
+
+
+
+.bold {
+  font-weight: bold;
+}
+
+
+form{
+  
+  
+
+  padding-top: 20px;
+  padding-right: 50px; 
+  padding-bottom: 20px; 
+  padding-left: 50px; 
+   background-color: #F1F6F9;
+  border-radius: 1rem;
+  /* width: 50rem; */
+
+}
+
+.parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh;  */
+}
+
+.break {
+  height: 2px;
+  background-color: black;
+  margin: 20px;
+}
